@@ -6,19 +6,19 @@
 ***3. Kontakt će se sastojati od 2 modela:***
 
 - Contact (contacts tablica):
-        - ```id```
-        - ```user_id``` (foreign key na users tablicu, ```on delete cascade```)
-        - ```first_name```
-        - ```last_name```
-        - ```level```
-        - ```created_at```
-        - ```updated_at```
+     - ```id```
+    - ```user_id``` (foreign key na users tablicu, ```on delete cascade```)
+    - ```first_name```
+    - ```last_name```
+    - ```level```
+    - ```created_at```
+    - ```updated_at```
 - ContactData (contact_datas tablica):
-        - ```id```
-        - ```contact_id``` (foreign key na contacts tablicu, ```on delete cascade```)
-        - ```phone```
-        - ```email```
-        - ```address```
+    - ```id```
+    - ```contact_id``` (foreign key na contacts tablicu, ```on delete cascade```)
+    - ```phone```
+    - ```email```
+    - ```address```
         
 **4. Validacijska pravila:**
 - first_name: obvezan, string
